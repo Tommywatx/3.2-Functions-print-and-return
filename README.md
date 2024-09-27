@@ -38,12 +38,7 @@ Write a function `announce_winner(player1_name, player1_score, player2_name, pla
 
 ```python
 def announce_winner(player1_name, player1_score, player2_name, player2_score):
-    if player1_score > player2_score:
-        print(f"{player1_name} wins with a score of {player1_score}!")
-    elif player1_score < player2_score:
-        print(f"{player2_name} wins with a score of {player2_score}!")
-    else:
-        print(f"It's a tie! Both {player1_name} and {player2_name} have {player1_score} points.")
+   pass
 
 # Example call:
 announce_winner("Alice", 85, "Bob", 92)
@@ -90,9 +85,7 @@ Write a function `convert_minutes(minutes)` that converts a number of minutes in
 
 ```python
 def convert_minutes(minutes):
-    hours = minutes // 60
-    mins = minutes % 60
-    print(f"{minutes} minutes is {hours} hours and {mins} minutes.")
+    pass
 
 # Example call:
 convert_minutes(135)

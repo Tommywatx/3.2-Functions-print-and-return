@@ -1,8 +1,5 @@
 # 3.2-Functions-print-and-return
 
-Sure! Here are **ten functions** for practicing different aspects of Python function writing. They cover a variety of topics, including functions with parameters, return values, print statements, and no parameters.
-
----
 
 ### 1. **Calculate Circle Area**
 Write a function `calculate_circle_area(radius)` that takes the radius of a circle and returns the area of the circle. pi is 3.14

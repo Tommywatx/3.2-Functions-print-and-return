@@ -21,30 +21,41 @@ def calculate_simple_interest(principal, rate, time):
 
 import random
 def roll__die():
-    print(random.randint(1,6))
+    randie = (random.randint(1,6)) + (random.randint(1,6))
+    return randie
 
 def convert_minutes(minutes):
-    pass
-
+    if (minutes >= 60):
+        hours = minutes/60
+        return print("You have", hours,"hours.")
+    elif (minutes < 60):
+        return print("You have", minutes,"minutes.")
+    
 # Main Code
 
 
-# radius = int(input("Input a circle radius. "))
-# total = calculate_circle_area (radius)
-# print("Circle Area:", total)
+radius = int(input("Input a circle radius. "))
+total = calculate_circle_area (radius)
+print("Circle Area:", total)
 
-# print_greeting()
+print_greeting()
 
-# player1_name = input("Input player 1's name. ")
-# player2_name = input("Input player 2's name. ")
-# player1_score = int(input("Input player 1's score. "))
-# player2_score = int(input("Input player 2's score. "))
-# winner = announce_winner (player1_name, player1_score, player2_name, player2_score)
-# print(winner)
+player1_name = input("Input player 1's name. ")
+player2_name = input("Input player 2's name. ")
+player1_score = int(input("Input player 1's score. "))
+player2_score = int(input("Input player 2's score. "))
+winner = announce_winner (player1_name, player1_score, player2_name, player2_score)
+print(winner)
 
-# principal = int(input("Enter your principal interest money. "))
-# rate = int(input("Enter your rate of interest percent as a number. "))
-# time = int(input("Enter the number of years the money has been sitting. "))
-# simple_interest = calculate_simple_interest(principal, rate, time)
-# print("Simple Interest:", simple_interest)
+principal = int(input("Enter your principal interest money. "))
+rate = int(input("Enter your rate of interest percent as a number. "))
+time = int(input("Enter the number of years the money has been sitting. "))
+simple_interest = calculate_simple_interest(principal, rate, time)
+print("Simple Interest:", simple_interest)
 
+random = roll__die()
+print("Total of two dice rolls:", random)
+
+minutes = int(input("Enter an ammount of minutes: "))
+mincon = convert_minutes(minutes)
+print(mincon)

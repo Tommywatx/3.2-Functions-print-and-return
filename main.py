@@ -5,7 +5,7 @@ def calculate_circle_area(radius):
     return area
 
 def print_greeting():
-    greet = print("Welcome to the game.")
+    print("Welcome to the game.")
 
 def announce_winner(player1_name, player1_score, player2_name, player2_score):
     if (player1_score > player2_score):
@@ -19,8 +19,9 @@ def calculate_simple_interest(principal, rate, time):
     interest = principal*rate*time/100
     return interest
 
+import random
 def roll__die():
-    pass
+    print(random.randint(1,6))
 
 def convert_minutes(minutes):
     pass
